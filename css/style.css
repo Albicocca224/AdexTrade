@@ -825,7 +825,7 @@ input[type=radio].visually-hidden {
 }
 @media (max-width: 600px) {
     .pricing__inner {
-        height: 1800px;
+        height: 1900px;
     }
     .pricing__inner .pricing__blocks {
         display: -webkit-box;
