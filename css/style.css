@@ -4,104 +4,104 @@
 @font-face {
     font-style: normal;
     font-weight: 900;
-    font-family: "Lato";
-    src: url("../fonts/Lato-Black.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Black.woff2") format("woff2");
 }
 @font-face {
     font-style: italic;
     font-weight: 900;
-    font-family: "Lato";
-    src: url("../fonts/Lato-BlackItalic.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-BlackItalic.woff2") format("woff2");
 }
 @font-face {
     font-style: normal;
     font-weight: 800;
-    font-family: "Lato";
-    src: url("../fonts/Lato-ExtraBold.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-ExtraBold.woff2") format("woff2");
 }
 @font-face {
     font-style: italic;
     font-weight: 800;
-    font-family: "Lato";
-    src: url("../fonts/Lato-ExtraBold.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-ExtraBold.woff2") format("woff2");
 }
 @font-face {
     font-style: normal;
     font-weight: 700;
-    font-family: "Lato";
-    src: url("../fonts/Lato-Bold.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Bold.woff2") format("woff2");
 }
 @font-face {
     font-style: italic;
     font-weight: 700;
-    font-family: "Lato";
-    src: url("../fonts/Lato-BoldItalic.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-BoldItalic.woff2") format("woff2");
 }
 @font-face {
     font-style: normal;
     font-weight: 600;
-    font-family: "Lato";
-    src: url("../fonts/Lato-Semibold.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Semibold.woff2") format("woff2");
 }
 @font-face {
     font-style: italic;
     font-weight: 600;
-    font-family: "Lato";
-    src: url("../fonts/Lato-SemiboldItalic.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-SemiboldItalic.woff2") format("woff2");
 }
 @font-face {
     font-style: normal;
     font-weight: 500;
-    font-family: "Lato";
-    src: url("../fonts/Lato-Medium.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Medium.woff2") format("woff2");
 }
 @font-face {
     font-style: italic;
     font-weight: 500;
-    font-family: "Lato";
-    src: url("../fonts/Lato-MediumItalic.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-MediumItalic.woff2") format("woff2");
 }
 @font-face {
     font-style: normal;
     font-weight: 400;
-    font-family: "Lato";
-    src: url("../fonts/Lato-Regular.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Regular.woff2") format("woff2");
 }
 @font-face {
     font-style: normal;
     font-weight: 300;
-    font-family: "Lato";
-    src: url("../fonts/Lato-Light.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Light.woff2") format("woff2");
 }
 @font-face {
     font-style: italic;
     font-weight: 300;
-    font-family: "Lato";
-    src: url("../fonts/Lato-LightItalic.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-LightItalic.woff2") format("woff2");
 }
 @font-face {
     font-style: normal;
     font-weight: 200;
-    font-family: "Lato";
-    src: url("../fonts/Lato-ExtraLight.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-ExtraLight.woff2") format("woff2");
 }
 @font-face {
     font-style: italic;
     font-weight: 200;
-    font-family: "Lato";
-    src: url("../fonts/Lato-ExtraLightItalic.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-ExtraLightItalic.woff2") format("woff2");
 }
 @font-face {
     font-style: normal;
     font-weight: 100;
-    font-family: "Lato";
-    src: url("../fonts/Lato-Thin.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-Thin.woff2") format("woff2");
 }
 @font-face {
     font-style: italic;
     font-weight: 100;
-    font-family: "Lato";
-    src: url("../fonts/Lato-ThinItalic.woff2") format("woff2");
+    font-family: "Akrobat";
+    src: url("../fonts/Akrobat-ThinItalic.woff2") format("woff2");
 }
 html {
     -webkit-box-sizing: border-box;
@@ -118,7 +118,7 @@ html ::before {
 }
 
 body {
-    font-family: "Lato";
+    font-family: "Akrobat";
     min-width: 320px;
     min-height: 100vh;
     margin: 0;
@@ -452,8 +452,8 @@ input[type=radio].visually-hidden {
     }
 }
 .main {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.5))), url("../img/base/BG.webp");
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../img/base/BG.webp");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/base/BG.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/base/BG.webp");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -686,7 +686,7 @@ input[type=radio].visually-hidden {
     margin: 50px 0;
     font-weight: 600;
     color: #252728;
-    font-size: 3rem;
+    font-size: 3.25rem;
 }
 
 .advantages__blocks {
@@ -715,16 +715,20 @@ input[type=radio].visually-hidden {
 }
 .advantages__block img {
     margin: 25px auto;
+    height: 155px;
+    width: auto;
 }
 .advantages__block h1 {
     margin: 40px 0;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 600;
     text-align: center;
     line-height: 120%;
 }
 .advantages__block p {
     line-height: 150%;
+    font-size: 1.05rem;
+    font-weight: 600;
 }
 
 @media (max-width: 1440px) {
@@ -736,8 +740,7 @@ input[type=radio].visually-hidden {
 }
 .pricing__inner {
     width: 100%;
-    height: 800px;
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 .pricing__capture {
@@ -779,7 +782,10 @@ input[type=radio].visually-hidden {
     width: 100%;
     height: 85%;
 }
-.pricing__blocks .pricing__block .pricing__content-bottom p {
+.pricing__blocks .pricing__block .pricing__content-bottom .pricing__content-description {
+    height: 75%;
+}
+.pricing__blocks .pricing__block .pricing__content-bottom .pricing__content-description p {
     margin: 30.5px 0;
     font-size: 1.2rem;
     font-weight: 500;
@@ -787,7 +793,7 @@ input[type=radio].visually-hidden {
 .pricing__blocks .pricing__block .pricing__content-bottom button {
     background: #252728;
     width: 100%;
-    height: 16%;
+    height: 18%;
     color: white;
     font-size: 1.55rem;
     font-weight: 300;
@@ -806,9 +812,6 @@ input[type=radio].visually-hidden {
     }
 }
 @media (max-width: 768px) {
-    .pricing__inner {
-        height: 1800px;
-    }
     .pricing__inner .pricing__blocks {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -825,7 +828,7 @@ input[type=radio].visually-hidden {
 }
 @media (max-width: 600px) {
     .pricing__inner {
-        height: 1900px;
+        height: 1800px;
     }
     .pricing__inner .pricing__blocks {
         display: -webkit-box;
