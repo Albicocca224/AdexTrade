@@ -1,3 +1,14 @@
+const swiperMain = new Swiper('.swiperMain', {
+  // Optional parameters
+  slidesPerView: 1,
+  autoHeight:true,
+  direction: 'horizontal',
+  loop: true,
+  speed: 1500,
+  autoplay: {
+    delay:3000
+  }
+}); 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     slidesPerView: 'auto',
