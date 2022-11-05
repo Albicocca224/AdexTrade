@@ -71,13 +71,25 @@ function footerHandleButtonClick() {
 footerbtn.addEventListener('click', footerHandleButtonClick);
 footerbtn.addEventListener('click', closeHamburger);
 var footer = document.getElementById("footer");
-var mainContactbtn = document.getElementById('mainContact');
+var mainContactbtn1 = document.getElementById('mainContact1');
 
-function mainContactHandleButtonClick() {
+function mainContact1HandleButtonClick() {
   footer.scrollIntoView({
     block: "center",
     behavior: "smooth"
   });
 }
 
-mainContactbtn.addEventListener('click', mainContactHandleButtonClick);
+mainContactbtn1.addEventListener('click', mainContact1HandleButtonClick);
+
+var mainContactbtn2 = document.getElementById('mainContact2');
+
+function mainContact2HandleButtonClick() {
+  footer.scrollIntoView({
+    block: "center",
+    behavior: "smooth"
+  });
+}
+
+mainContactbtn2.addEventListener('click', mainContact2HandleButtonClick);
+
