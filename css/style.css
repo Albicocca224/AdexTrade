@@ -451,13 +451,26 @@ input[type=radio].visually-hidden {
         top: 25px;
     }
 }
-.main {
+.main__swiper{
+    overflow: hidden;
+}
+.main__bg {
+    height: 100%;
+}
+#first__bg{
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/base/BG.webp");
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/base/BG.webp");
-    background-size: 100%;
     background-repeat: no-repeat;
-}
+    background-size: 100%;
 
+}
+#second__bg{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/base/BG2.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/base/BG2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
 .main__inner {
     width: 100%;
     height: 45vw;
@@ -496,7 +509,7 @@ input[type=radio].visually-hidden {
 }
 
 @media (max-width: 970px) {
-    .main {
+    .main__bg {
         background-size: 140%;
     }
 
@@ -505,37 +518,37 @@ input[type=radio].visually-hidden {
     }
 }
 @media (max-width: 800px) {
-    .main {
+    .main__bg {
         background-size: 160%;
     }
 }
 @media (max-width: 680px) {
-    .main {
+    .main__bg {
         background-size: 180%;
     }
 }
 @media (max-width: 600px) {
-    .main {
+    .main__bg {
         background-size: 200%;
     }
 }
 @media (max-width: 540px) {
-    .main {
+    .main__bg {
         background-size: 240%;
     }
 }
 @media (max-width: 440px) {
-    .main {
+    .main__bg {
         background-size: 260%;
     }
 }
 @media (max-width: 410px) {
-    .main {
+    .main__bg {
         background-size: 320%;
     }
 }
 @media (max-width: 340px) {
-    .main {
+    .main__bg {
         background-size: 360%;
     }
 }
@@ -722,7 +735,7 @@ input[type=radio].visually-hidden {
     margin: 40px 0;
     font-size: 1.7rem;
     font-weight: 600;
-    text-align: center;
+    text-align: center; 
     line-height: 120%;
 }
 .advantages__block p {
