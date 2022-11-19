@@ -46,18 +46,18 @@ function advantagesHandleButtonClick() {
 
 advantagesbtn.addEventListener('click', advantagesHandleButtonClick);
 advantagesbtn.addEventListener('click', closeHamburger);
-var pricing = document.getElementById("pricing");
-var pricingbtn = document.getElementById('pricingScroll');
+var questions = document.getElementById("questions");
+var questionsbtn = document.getElementById('questionsScroll');
 
-function pricingHandleButtonClick() {
-  pricing.scrollIntoView({
+function questionsHandleButtonClick() {
+  questions.scrollIntoView({
     block: "center",
     behavior: "smooth"
   });
 }
 
-pricingbtn.addEventListener('click', pricingHandleButtonClick);
-pricingbtn.addEventListener('click', closeHamburger);
+questionsbtn.addEventListener('click', questionsHandleButtonClick);
+questionsbtn.addEventListener('click', closeHamburger);
 var footer = document.getElementById("footer");
 var footerbtn = document.getElementById('footerScroll');
 
@@ -93,3 +93,9 @@ function mainContact2HandleButtonClick() {
 
 mainContactbtn2.addEventListener('click', mainContact2HandleButtonClick);
 
+const faqs = document.querySelectorAll(".faq");
+faqs.forEach(faq => {
+  faq.addEventListener("click", () => {
+    faq.classList.toggle("active")
+  })
+})
