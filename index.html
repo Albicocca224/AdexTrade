@@ -11,6 +11,7 @@
     <meta name="description" content="Полный спектр услуг в области маркетинга и продаж в сегменте B2B. Большой опыт, комплексный подход, интересные кейсы.">
     <meta name="keywords" content="B2B, Бизнес-консалтинг, Бизнес-консультация, Закупка, Поставщики">
     <!-- Favicon -->
+    <link type="image/png" sizes="16x16" rel="icon" href="favicon.ico">
     <!-- OG -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Adex Trade Company">
@@ -36,7 +37,14 @@
                     <a class="nav__link" id="mainScroll">Главная</a>
                     <a class="nav__link" id="aboutScroll">О нас</a>
                     <a class="nav__link" id="advantagesScroll">Преимущества</a>
-                    <a class="nav__link" id="questionsScroll">Услуги</a>
+                    <div class="dropdown">
+                        <a class="nav__link">Услуги</a>
+                        <div class="dropdown-content">
+                            <a class="nav__link" id="supplementScroll">Снабжение</a>
+                            <a class="nav__link" id="tenderScroll">Тендеры</a>
+                            <a class="nav__link">Link 3</a>
+                          </div>
+                    </div>
                     <a class="nav__link" id="footerScroll">Контакты</a>
                 </nav>
                 <div class="header__contact">
@@ -61,7 +69,7 @@
             <div class="main__bg swiper-slide" id="second__bg">
                 <div class="container">
                     <div class="main__inner">
-                        <div class="main__content wow animate__animated animate__fadeInLeft">
+                        <div class="main__content wow animate__animated animate__fadeInLeft" style="margin-top:30px;">
                             <h1>Мы работаем с:</h1>
                             <p>Samsung, Lenovo, LG, Kingston, TP-lINK, Xiaomi, DELL, AMD, Genius, Gigabyte, IEK, Intel, Logitech, Microsoft, PALIT, Philips, Hewlett Packard Enterprise и другие ведущие компании</p>
                             <button class="main__btn" id="mainContact2">Контакты</button>
@@ -144,7 +152,7 @@
     <section class="questions">
         <div class="container">
             <div class="questions__inner">
-                <h2 class="questions__title" id="questions">Снабжение</h2>
+                <h2 class="questions__title" id="supplement">Снабжение</h2>
                 <p class="questions__subtitle  wow animate__animated animate__fadeInUp">Наша компания занимается организацией и облегчением всех этапов, на всех возможных уровнях, по заказу товара со всех стран. Свободно ведем переговоры с поставщиками – одна из наших сильных сторон, мы можем получить самые выгодные для Вас условия. Организовать чёткую последовательность и время действий каждого звена в цепочке, чтобы Вы могли заказать товар в срок. У нас есть возможность найти для вас производителя, нужного Вам товара в Китае и в любых других странах. Проведем все переговоры и формальности, проверим поставщика, на наличие добропорядочности, убедимся в реальности производства, проверив наличие лицензий, сертификатов, а также других/иных необходимых документов поставщика. Проведем оценку качества товара, условия сотрудничества. При необходимости можем Вам предоставить контакты производителя и условия сотрудничества по выгодной цене с гарантиями и без каких-либо рисков.</p>
                 <div class="questions__blocks faq">
                     <div class="question__block question">
@@ -186,7 +194,7 @@
                     </div>
                 </div>
                 <h2 class="questions__title" style="padding-top: 50px;">Тендеры</h2>
-                <p class="questions__subtitle  wow animate__animated animate__fadeInUp">Наша компания оказывает профессиональную помощь во всех этапах оформления тендеров.  Профессиональность нашей команды проявляется в многолетнем опыте и исключительных навыках. Предоставляем как услуги консультации по любым вопросам, связанным с тендерами, так и полноценную помощь с нашим непосредственным участием. </p>
+                <p id="tender" class="questions__subtitle  wow animate__animated animate__fadeInUp">Наша компания оказывает профессиональную помощь во всех этапах оформления тендеров.  Профессиональность нашей команды проявляется в многолетнем опыте и исключительных навыках. Предоставляем как услуги консультации по любым вопросам, связанным с тендерами, так и полноценную помощь с нашим непосредственным участием. </p>
                 <div class="questions__blocks faq">
                     <div class="question__block question">
                         <h3 class="wow animate__animated animate__fadeInLeft">Помощь и решение проблем с заказчиком. </h3>
