@@ -46,18 +46,6 @@ function advantagesHandleButtonClick() {
 
 advantagesbtn.addEventListener('click', advantagesHandleButtonClick);
 advantagesbtn.addEventListener('click', closeHamburger);
-var questions = document.getElementById("questions");
-var questionsbtn = document.getElementById('questionsScroll');
-
-function questionsHandleButtonClick() {
-  questions.scrollIntoView({
-    block: "center",
-    behavior: "smooth"
-  });
-}
-
-questionsbtn.addEventListener('click', questionsHandleButtonClick);
-questionsbtn.addEventListener('click', closeHamburger);
 var footer = document.getElementById("footer");
 var footerbtn = document.getElementById('footerScroll');
 
@@ -93,6 +81,31 @@ function mainContact2HandleButtonClick() {
 
 mainContactbtn2.addEventListener('click', mainContact2HandleButtonClick);
 
+var supplement = document.getElementById("supplement");
+var supplementbtn = document.getElementById('supplementScroll');
+
+function supplementHandleButtonClick() {
+  supplement.scrollIntoView({
+    block: "center",
+    behavior: "smooth"
+  });
+}
+
+supplementbtn.addEventListener('click', supplementHandleButtonClick);
+supplementbtn.addEventListener('click', closeHamburger);
+
+var tender = document.getElementById("tender");
+var tenderbtn = document.getElementById('tenderScroll');
+
+function tenderHandleButtonClick() {
+  tender.scrollIntoView({
+    block: "center",
+    behavior: "smooth"
+  });
+}
+
+tenderbtn.addEventListener('click', tenderHandleButtonClick);
+tenderbtn.addEventListener('click', closeHamburger);
 const faqs = document.querySelectorAll(".faq");
 faqs.forEach(faq => {
   faq.addEventListener("click", () => {
